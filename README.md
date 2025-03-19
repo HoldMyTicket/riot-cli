@@ -1,5 +1,30 @@
 # Riot cli
 
+## BUILD
+Update package.json with new version
+
+Run
+```
+make raw
+```
+Add and commit
+
+Tag the version
+```
+git tag -s vX.X.X -m 'vX.X.X'
+```
+
+Push it to Github
+```
+git push
+git push origin tag vX.X.X
+```
+
+### Publish to NPMJS
+```
+npm login
+npm publish
+```
 Command line tool to precompile riot tags
 
 [![Build Status][travis-image]][travis-url]
