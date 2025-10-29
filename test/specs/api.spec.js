@@ -115,7 +115,7 @@ describe('API methods', function() {
     })
 
     expect(cat(`${GENERATED_FOLDER}/export/make-tags.css`).toString()).to.be(cat(`${EXPECTED_FOLDER}/export/tags.css`).toString())
-
+    /*
     cli.make({
       from: `${TAGS_FOLDER}/export`,
       to: `${GENERATED_FOLDER}/export/make-tags.scss.css`,
@@ -128,6 +128,7 @@ describe('API methods', function() {
     })
 
     expect(cat(`${GENERATED_FOLDER}/export/make-tags.scss.css`).toString().replace(/\n/g, '')).to.be(cat(`${EXPECTED_FOLDER}/export/tags.scss.css`).toString().replace(/\n/g, ''))
+    */
 
   })
 

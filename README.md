@@ -5,7 +5,7 @@ Update package.json with new version
 
 Run
 ```
-make raw
+make test
 ```
 Add and commit
 
