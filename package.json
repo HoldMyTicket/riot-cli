@@ -1,6 +1,6 @@
 {
   "name": "@holdmyticket/hmt-riot-cli",
-  "version": "2.8.0",
+  "version": "2.8.0-alpha",
   "description": "Riot command line utility",
   "main": "lib/index.js",
   "engines": {
@@ -25,7 +25,6 @@
   ],
   "devDependencies": {
     "coffee-script": "^1.12.7",
-    "coveralls": "^3.1.1",
     "eslint": "^8.57.0",
     "expect.js": "^0.3.1",
     "istanbul": "^0.4.5",
